@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+:root{
+    --orange:rgb(0, 238, 255);
+}
+*{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration:none;
+    text-transform:capitalize;
+    transition:all .2s linear;
+}
+html {
+    font-size:70.5%;
+    overflow-x:hidden;
+}
+body{
+    background:#111;
+    overflow-x: hidden;
+    padding-left: 40rem;
+}
+
+section{
+    min-height: 100vh;
+    padding:1rem;
+}
+
+.btn{
+    padding:.7rem 3rem;
+    background:#333;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+}
+
+.btn:hover{
+    background:var(--orange);
+}
+
+.heading{
+    text-align: center;
+    margin:0 2rem;
+    font-size: 4rem;
+    padding:1rem;
+    border-bottom: .1rem solid #fff4;
+    color:#fff;
+}
+
+.heading span{
+    color:var(--orange);
+}
+
+header {
+    position:fixed;
+    top:0; left:0;
+    z-index:1000;
+    height:100%;
+    width:35rem;
+    background:black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img {
+    height: 17rem;
+    width: 17rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 0.7rem solid var(--orange);
+}
+header .user .name {
+    font-size: 2.5rem;
+    color: antiquewhite;
+}
+header .user .post{
+    font-size: 2rem;
+    color: antiquewhite;
+}
+
+header .navBar {
+    font-size : 2rem;
+}
+header .navBar ul{
+    list-style: none;
+    padding:1rem 2rem;
+}
+header .navBar ul li a{
+    display: block;
+    padding:1rem;
+    margin:1.5rem 0;
+    background:#333;
+    color:#fff;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+}
+
+header .navBar ul li a:hover{
+    background:rgb(0, 238, 255);
+}
+
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    padding:0 15rem;
+}
+
+.home h3{
+    font-size: 2rem;
+    color:#fff;
+}
+
+.home h1{
+    font-size:2rem;
+    color:#fff;
+}
+
+.home h1 span{
+    color:var(--orange);
+}
+
+.home p{
+    font-size:1.8rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.about {
+ color:white;
+}
+.about .row {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding: 1rem 0;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+}
+.about .row .info {
+
+    display: block;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    padding-right: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+
+}
+.about h3 span{
+    color:var(--orange); 
+}
+.about .row .info h3 {
+
+    display: block;
+    justify-content: center;
+    padding: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+
+}
+
+.about .row .counter{
+    flex:1 1 48rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about .row .counter .box{
+    width:20rem;
+    background:#222;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+}
+
+.about .row .counter .box span{
+    font-size: 2.5rem;
+    color:var(--orange);
+}
+
+.about .row .counter .box h3{
+    font-size: 1.5rem;
+    color:#fff;
+}
+
+.experience {
+    color:white;
+   }
+.experience .exp {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+    /* flex-direction: row; */
+    /* align-content: space-around; */
+    align-items: center;
+}
+
+.experience .exp .box {
+    width: 25rem;
+    background: #222;
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.experience .exp .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    line-height: 3.5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color:#fff;
+    background:var(--orange);
+}
+
+.experience .exp .box span{
+   
+    text-align: center;
+    font-size: 1.8rem;
+    color:orange;
+}
+.experience .exp .box h3{
+   
+    text-align: center;
+    font-size: 1.5rem;
+    color:orange;
+}
+.experience .exp .box h2{
+   
+    text-align: center;
+    font-size: 1.5rem;
+    color:orange;
+}
+
+.contact .row .content .info {
+
+    display: block;
+    justify-content: center;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    padding-right: 1rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color:var(--orange);
+
+}
+.contact h3 span{
+    color:var(--orange); 
+}
+
+
