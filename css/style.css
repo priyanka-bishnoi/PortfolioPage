@@ -315,3 +315,23 @@ header .navBar ul li a:hover{
     border-bottom: 0;
 }
 
+.projects .container1 {
+    color:white;
+    display:flex;
+    color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    align-items: stretch;
+}
+
+
+.projects .container1 .box{
+    width:35rem;
+    color:black;
+    
+    
+}
+
