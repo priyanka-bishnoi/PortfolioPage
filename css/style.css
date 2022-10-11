@@ -8,7 +8,7 @@
     padding:0;
     box-sizing:border-box;
     text-decoration:none;
-    text-transform:capitalize;
+    /*text-transform:capitalize; */
     transition:all .2s linear;
 }
 html {
@@ -329,7 +329,35 @@ header .navBar ul li a:hover{
 
 
 .projects .container1 .box{
-    width:35rem;
-    color:black;
+    width: 50rem;
+    color: white;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 0.1rem solid gray;
+    background: #222;
+    position: relative;
+}
+.projects .container1 .box h3{
+    font-size:1.4rem;
+}
+.projects .container1 .box h3 span{
+    color:orange;
+}
+.projects .container1 .box p{
+    font-size:1.3rem;
+}
+.projects .container1 .box p span{
+    color:orange;
+}
+.projects .container1 .box ul span{
+    color:orange;
+    font-size:1.2rem;
+}
+.projects .container1 .box ul li{
+    font-size:1.15rem;
+    margin-left: 1.5rem;
 }
 
